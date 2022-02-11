@@ -12,6 +12,6 @@ const app = express();
 app.use(express.json());
 app.use('/', Router);
 
-console.log("HERE")
+// console.log("HERE")
 
 app.listen(port, () => { console.log('Server is listening at port 9000')});
